@@ -57,7 +57,9 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-            "startingDirectory": "%UASLP%",
+            // "startingDirectory": "%UASLP%",
+            // INICIAR EN EL DIRECTORIO QUE ABRIÓ LA TERMINAL.
+            "startingDirectory": "%__CD__%",
             // FONDO NO PLANO.
             "useAcrylic": true,
             // SE HACE SCROLL A LA LÍNEA DE COMANDOS AL EMPEZAR A ESCRIBIR.
