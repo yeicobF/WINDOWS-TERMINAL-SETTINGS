@@ -8,7 +8,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    // "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    // ABRIR Git Bash por default.
+    "defaultProfile": "{c3a632df-3e93-4073-951c-6b7e87b0c8b5}",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -24,6 +26,9 @@
     "alwaysShowTabs": true,
     "confirmCloseAllTabs": true,
     "theme": "dark",
+    "initialCols": 80,
+    "initialRows": 25,
+
     "keybindings": [
         {
             "command": "closeTab",
@@ -88,21 +93,6 @@
         "list":
         [
             {
-                // Make changes here to the powershell.exe profile.
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "Windows PowerShell",
-                "commandline": "powershell.exe",
-                "hidden": false
-
-            },
-            {
-                // Make changes here to the cmd.exe profile.
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Command Prompt",
-                "commandline": "cmd.exe",
-                "hidden": false
-            },
-            {
                 /* 
                 
                 https://rohit-shirke.medium.com/configuring-git-bash-on-windows-terminal-app-c85440386f75
@@ -125,6 +115,21 @@
                 "commandline": "C:\\Program Files\\Git\\bin\\bash.exe --login -i",
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
                 // "colorScheme": "GitBash"
+            },
+            {
+                // Make changes here to the powershell.exe profile.
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "hidden": false
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
