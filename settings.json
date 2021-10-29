@@ -64,6 +64,14 @@
     {
       "command": "openTabColorPicker",
       "keys": ["alt+c"]
+    },
+    {
+      "command": "openTabRenamer",
+      "keys": ["alt+shift+t"]
+    },
+    {
+      "command": "openWindowRenamer",
+      "keys": ["alt+shift+w"]
     }
   ],
   "profiles": {
